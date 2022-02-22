@@ -1,5 +1,5 @@
 #!/bin/bash
-javac Test.java
+
 #$1: <inputfile>, $2:X, $3: -apriori/-fptree, $4: <outputfilename>
 if [ "$3" == "-apriori" ]; then
 	java Test $1 $2 $3 $4 > $4
